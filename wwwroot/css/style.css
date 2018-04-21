@@ -1,0 +1,19 @@
+.container {
+    background: lightblue;
+}
+.top_nav {
+    background: lightgreen;
+}
+.profile_pic {
+    width: 300px;
+    height: auto;
+}
+.my_name {
+    display: inline-block;
+}
+.my_description {
+    display: inline-block;
+}
+.message_input {
+    width: 500px;
+}

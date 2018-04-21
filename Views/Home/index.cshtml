@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pietro's Portfolio</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default top_nav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Pietro's Web Development Portfolio</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/home">Home</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <img class = "img-rounded profile_pic" src="~/images/profile.jpg">
+            <h2 class="my_name">Pietro N. Bianchi</h2>
+            <p class="my_description">Young professional in an accelerated Software Development program residing in Seoul, South Korea.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pietro's Projects</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default top_nav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Pietro's Web Development Portfolio</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/home">Home</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row project_title">
+                <div class="col-md-4"><h3>Django Friend's Applications</h3></div>
+                <div class="col-md-4"><h3>C# Terminal RPG</h3></div>
+                <div class="col-md-4"><h3>C# Web Adventure</h3></div>
+            </div>
+            <div class="row project_image">
+                <div class="col-md-4 project_images"><img class = "img-rounded profile_pic" src="~/images/friend.jpg"></div>
+                <div class="col-md-4 project_images"><img class = "img-rounded profile_pic" src="~/images/terminal.png"></div>
+                <div class="col-md-4 project_images"><img class = "img-rounded profile_pic" src="~/images/blackbelt.jpg"></div>
+            </div>
+            <div class="row project_description">
+                <div class="col-md-4 project_descriptions"><p>An application with full CRUD functionality that lets a user view other user's profile and be able to add/remove that user as a friend.</p></div>
+                <div class="col-md-4 project_descriptions"><p>Fight your way through the dungeon with terminal commands</p></div>
+                <div class="col-md-4 project_descriptions"><p>An awesome project I created to get my Black Belt in C# from Coding Dojo</p></div>
+            </div>
+        </div>
+    </body>
+</html>
